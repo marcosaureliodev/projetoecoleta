@@ -12,3 +12,7 @@ Projeto **Open Source** desenvolvido na primeira sesemana **Next Level Week** da
 # :computer: Desenvolvedor
 [<img src="https://avatars3.githubusercontent.com/u/63154006?s=460&u=42ba311a73dfa829f5ea8cd220fd054ee05314cb&v" width=115 > <br> <sub> Marcos Aurélio </sub>](https://github.com/marcosaureliodev) |
 | :---: |  
+
+# :bookmark_tabs: Licença
+
+Esse repositório está licenciado pela MIT LICENSE. Para mais informações detalhadas, leia o arquivo [LICENSE](https://github.com/marcosaureliodev/Projeto-Ecoleta/blob/master/LICENSE) contido nesse repositório.
