@@ -5,7 +5,7 @@
 
 # By Next Level Week da Rocketseat
 
-Projeto **Open Source** desenvolvido na primeira sesemana **Next Level Week** da **Rocketseat**, com o uso das seguintes tecnologias: **_TypeScript, Node, React e React Native._**
+Projeto **Open Source** desenvolvido na primeira semana **Next Level Week** da **Rocketseat**, com o uso das seguintes tecnologias: **_TypeScript, Node, React e React Native._**
 
 ![LICENÇA](https://img.shields.io/badge/LICENÇA-MIT-GREEN)
 
