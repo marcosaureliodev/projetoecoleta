@@ -1,11 +1,11 @@
 ![HomeEcoleta](https://github.com/marcosaureliodev/Projeto-Ecoleta/blob/master/HomeEcoleta.PNG)
 
 # Projeto-Ecoleta
- Tem como Objetivo manter uma conexão entre empresas e outras entidades que coletam resíduos, resíduos esses (organicos e inorganicos), ajudando pessoas e entidades que necessitam descartar esses resíduos. Esta solução vêem ajudar a previnir um grander problema que é o descartte  inadequado do lixo,  onde esta sõlução tambem vem ajudar e facílitar o processo de reciclagem e reutilização dos materias coletados.
+ Tem como objetivo manter uma conexão entre empresas e outras entidades que coletam resíduos, resíduos esses (organicos e inorganicos), ajudando pessoas e entidades que necessitam descartar esses materiais "resíduos". Esta solução vêem ajudar a previnir um grander problema que é o descarte  inadequado do lixo,  onde esta solução também vem ajudar e facílitar o processo de reciclagem e reutilização dos materias coletados.
 
 # By Next Level Week da Rocketseat
 
-Projeto **Open Source** desenvolvido na primeira sesemana **Next Level Week** da **Rocketseat**, com o uso das seguintes tecnologias: **_TypeScript, Node, React e React Native._**
+Projeto **Open Source** desenvolvido na primeira semana **Next Level Week** da **Rocketseat**, com o uso das seguintes tecnologias: **_TypeScript, Node, React e React Native._**
 
 ![LICENÇA](https://img.shields.io/badge/LICENÇA-MIT-GREEN)
 
