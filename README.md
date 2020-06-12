@@ -10,11 +10,11 @@ Projeto **Open Source** desenvolvido na primeira semana **Next Level Week** da *
 ![LICENÇA](https://img.shields.io/badge/LICENÇA-MIT-GREEN) ![node](https://img.shields.io/badge/node-12.17.0-GREEN) ![web](https://img.shields.io/badge/npm-6.14.4-red) ![web](https://img.shields.io/badge/web-react-blue) ![mobile](https://img.shields.io/badge/mobile-react_native-purple)
 ![server](https://img.shields.io/badge/server-nodejs-orange) 
 
-# :computer: Desenvolvedor
+# :computer:  Desenvolvedor
 [<img src="https://avatars3.githubusercontent.com/u/63154006?s=460&u=42ba311a73dfa829f5ea8cd220fd054ee05314cb&v" width=115 > <br> <sub> Marcos Aurélio </sub>](https://github.com/marcosaureliodev) |
 | :---: |  
 
-## **:wine_glass: COMO UTILIZAR**
+## **:keyboard: COMO UTILIZAR**
 
 ### Configurações Iniciais
 
