@@ -10,11 +10,11 @@ Projeto **Open Source** desenvolvido na primeira semana **Next Level Week** da *
 ![LICENÇA](https://img.shields.io/badge/LICENÇA-MIT-GREEN) ![node](https://img.shields.io/badge/node-12.17.0-GREEN) ![web](https://img.shields.io/badge/npm-6.14.4-red) ![web](https://img.shields.io/badge/web-react-blue) ![mobile](https://img.shields.io/badge/mobile-react_native-purple)
 ![server](https://img.shields.io/badge/server-nodejs-orange) 
 
-# :computer:  Desenvolvedor
+# Desenvolvedor :computer:
 [<img src="https://avatars3.githubusercontent.com/u/63154006?s=460&u=42ba311a73dfa829f5ea8cd220fd054ee05314cb&v" width=115 > <br> <sub> Marcos Aurélio </sub>](https://github.com/marcosaureliodev) |
 | :---: |  
 
-## **:keyboard: COMO UTILIZAR**
+# Como Utilizar :keyboard:
 
 ### Configurações Iniciais
 
@@ -122,7 +122,7 @@ $ expo install expo-font @expo-google-fonts/ubuntu @expo-google-fonts/roboto
 
 **\* Lembre de inserir no arquivo `.env` o IP exato que foi gerado pelo seu mobile após utilizar o comando `npm run start`.**
 
-## **:octocat: COMO CONTRIBUIR**
+# Como Contribuir :octocat:
   
   - Verifique as **[Issues](https://github.com/x0n4d0/ecoleta/projects/1)** que estão abertas e se já não existe alguma com a sua feature;
   - Abra uma **Issue** com o nome e descrição da sua feature e assine com o seu usuário informando que irá fazê-la;
@@ -152,6 +152,6 @@ $ expo install expo-font @expo-google-fonts/ubuntu @expo-google-fonts/roboto
   - Agora é só abrir um *pull request* no repositório que você fez o *fork* e assim que acontecer o *merge* sua Issue será fechada e suas alterações irão fazer parte do projeto;
   - Depois que o *merge* da sua pull request for feito, você pode deletar a sua *branch*.
 
-# :bookmark_tabs: Licença
+# Licença :bookmark_tabs:
 
 Esse repositório está licenciado pela MIT LICENSE. Para mais informações detalhadas, leia o arquivo [LICENSE](https://github.com/marcosaureliodev/Projeto-Ecoleta/blob/master/LICENSE) contido nesse repositório.
