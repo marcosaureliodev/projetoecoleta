@@ -83,7 +83,7 @@ form select {
   padding: 16px 24px;
   font-size: 16px;
 
-  /* outline: none; */
+  outline: none; 
   border-radius: 8px;
 
 }
