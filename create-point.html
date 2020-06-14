@@ -40,17 +40,17 @@
 
           <div class="field">
             <label for="name">Nome da entidade</label>
-            <input type="text" name="name">
+            <input type="text" name="name" required>
           </div>
           
           <div class="field-group">
             <div class="field">
               <label for="address">Endereço</label>
-              <input type="text" name="address">
+              <input type="text" name="address" required>
             </div>
             <div class="field">
               <label for="address2">Número/Complemento</label>
-              <input type="text" name="address2">
+              <input type="text" name="address2" required>
             </div>
           </div>
 
@@ -58,7 +58,7 @@
           <div class="field-group">
             <div class="field">
               <label for="state">Estado</label>
-              <select name="uf">
+              <select name="uf" required>
                 <option value="">Selecione o Estado</option>
               </select>
 
@@ -68,7 +68,7 @@
 
             <div class="field">
               <label for="city">Cidade</label>
-              <select name="city" disabled>
+              <select name="city" disabled required>
                 <option value="">Selecione a Cidade</option>
               </select>
             </div>
@@ -78,11 +78,52 @@
 
         </fieldset>
 
+        <fieldset>
+          <legend>
+            <h2>Itens de coleta</h2>
+          </legend>
+
+          <div class="items-grid">
+            <li data-id="1" class="selected">
+              <img src="/assets/lampadas.svg" alt="Lâmpadas">
+              <spam>Lâmpadas</spam>
+            </li>
+
+            <li data-id="2">
+              <img src="/assets/baterias.svg" alt="Pilhas e Baterias">
+              <spam>Pilhas e Baterias</spam>
+            </li>
+            
+            <li data-id="3">
+              <img src="/assets/papeis-papelao.svg" alt="Papéias-Papelão">
+              <spam>Papéias-Papelão</spam>
+            </li>
+            
+            <li data-id="4">
+              <img src="/assets/eletronicos.svg" alt="Resíduos Eletônicos">
+              <spam>Resíduos Eletônicos</spam>
+            </li>
+            
+            <li data-id="5">
+              <img src="/assets/organicos.svg" alt="Resíduos Organicos">
+              <spam>Resíduos Organicos</spam>
+            </li>
+            
+            <li data-id="6">
+              <img src="/assets/oleo.svg" alt="Óleo de Cozinha">
+              <spam>Óleo de Cozinha</spam>
+            </li>
+          </div>
+
+
+        </fieldset>
+
         <button type="submit">Cadastrar ponto de coleta</button>
 
       </form>
 
   </div>
+
   <script src="/scripts/create-point.js"></script>
 
 </body>

@@ -1,3 +1,4 @@
+//FUNÇÃO PARA SELEÇÃO DE ESTADOS E CIDADES
 
 function populateUFs() {
   const ufSelect = document.querySelector("select[name=uf]")
@@ -7,7 +8,7 @@ function populateUFs() {
   .then( states => {
 
     for( const state of states ) {
-      ufSelect.innerHTML += `<option volue="${state.id}">${state.nome}</option>`
+      ufSelect.innerHTML += `<option value="${state.id}">${state.nome}</option>`
     }
 
   })
@@ -27,11 +28,15 @@ function getCities(event) {
 
   const url = `https://servicodados.ibge.gov.br/api/v1/localidades/estados/${ufValue}/municipios`
 
+  citySelect.innerHTML = "<option value>Slecione a Cidade"
+  citySelect.disabled = true
+
   fetch(url)
   .then( res => res.json() )
   .then( cities => {
+
     for( const city of cities ) {
-      citySelect.innerHTML += `<option volue="${city.id}">${city.nome}</option>`
+      citySelect.innerHTML += `<option value="${city.nome}">${city.nome}</option>`
     }
 
     citySelect.disabled = false
@@ -40,10 +45,9 @@ function getCities(event) {
 
 }
 
-
-
 document
   .querySelector("select[name=uf]")
   .addEventListener("change", getCities)
 
-
+  //FUNÇÃO PARA SELEÇÃO ITENS DE COLETA
+  //pegar todos os li´s
