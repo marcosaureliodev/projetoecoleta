@@ -3,7 +3,7 @@
   background-color: #0E0A14ef;
   
   height: 100vh;
-  width: 100VW;
+  width: 100vw;
 
   position: fixed;
   top: 0;
@@ -12,9 +12,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
+  
   transition: 400ms;
 }
+  /* Centralizando conteudo do modal */
+
+/* ocultar hide */
+#modal.hide{
+  display: none;
+}
+/* ocultar hide */
 
 #modal .content {
   color:#fff;
@@ -26,6 +33,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 48px;
 }
 
 #modal .header a {
@@ -59,6 +67,32 @@
 }
 
 #modal form input {
-  float: 1;
-  background-color: ;
+  flex: 1;
+
+  background-color: var(--bg-color);
+
+  border-radius: 8px 0 0 8px;
+  border: 0;
+
+  padding: 16px 24px;
+  
+  font-size: 16px;
+  color: #6c6c80;
+}
+
+#modal form button {
+  width: 72px;
+  height: 72px;
+
+  background-color: var(--primary-color);
+
+  border: 0;
+
+  border-radius: 0 8px 8px 0;
+  transition: 400ms;
+}
+
+#modal button:hover{
+  background-color: #2fb85e;
+  width: 80px;
 }
