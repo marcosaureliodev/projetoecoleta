@@ -1,0 +1,64 @@
+#modal {
+  /* Área do modal */
+  background-color: #0E0A14ef;
+  
+  height: 100vh;
+  width: 100VW;
+
+  position: fixed;
+  top: 0;
+
+  /* Centralizando conteudo do modal */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: 400ms;
+}
+
+#modal .content {
+  color:#fff;
+
+  width: 420px;
+}
+
+#modal .header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#modal .header a {
+  background-image: url("../assets/x.svg");
+
+  width: 20px;
+  height: 20px;
+
+  display: flex;
+
+  font-size: 0.01px;
+}
+
+#modal .header h1 {
+  color: #fff;
+
+  font-size: 36px;
+  line-height: 42px;
+}
+
+#modal form label {
+  font-size: 14px;
+  line-height: 16px;
+
+  display: block;
+  margin-bottom: 8px;
+}
+
+#modal form .field {
+  display: flex;
+}
+
+#modal form input {
+  float: 1;
+  background-color: ;
+}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
 
   <meta charset="UTF-8">
@@ -12,8 +13,10 @@
   <!-- Link css -->
   <link rel="stylesheet" href="/style/main.css">
   <link rel="stylesheet" href="/style/home.css">
-  <link rel="stylesheet" href="/style/reponsive.css">
+  <link rel="stylesheet" href="/style/modal.css">
 
+  <!-- Resposividade css -->
+  <link rel="stylesheet" href="/style/reponsive.css">
 </head>
 
 <body>
@@ -23,7 +26,7 @@
 
       <header>
         <img src="/assets/logo.svg" alt="logomarca">
-        <a href="create-point.html"> 
+        <a href="create-point.html">
           <span></span>
           Cadastre um ponto de coleta
         </a>
@@ -31,12 +34,31 @@
 
       <main>
         <h1>Seu marketplace de coleta de resíduos</h1>
-      
+
         <p>Ajudamos pessoas a encontra pontos de coleta de forma eficiente.</p>
-    
+
         <a href="#"><span></span><strong>Pesquisar pontos de coleta</strong></a>
       </main>
 
+    </div>
+  </div>
+
+  <!-- Modal Ponto de Coleta -->
+  <div id="modal">
+    <div class="content">
+      <div class="header">
+        <h1>Ponto de coleta</h1>
+        <a href="">Fechar</a>
+      </div>
+      <form action="">
+        <label for="search">Cidade</label>
+        <div class="search field">
+          <input type="text" name="search">
+          <button>
+            <img src="/assets/search.svg" alt="Botão Pesquisar">
+          </button>
+        </div>
+      </form>
     </div>
   </div>
 
