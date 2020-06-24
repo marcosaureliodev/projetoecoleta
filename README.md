@@ -1,6 +1,8 @@
-![HomeEcoleta](https://github.com/marcosaureliodev/Projeto-Ecoleta/blob/master/assets/HomeEcoletaIpad.PNG)
+![HomeEcoleta](https://github.com/marcosaureliodev/projetoecoleta/blob/master/public/assets/ecologia.gif)
+</br>
+![HomeEcoleta](https://github.com/marcosaureliodev/projetoecoleta/blob/master/public/assets/logo.svg)
 
-# Projeto-Ecoleta
+# Projeto Ecoleta
  Tem como objetivo manter uma conexão entre empresas e outras entidades que coletam resíduos, resíduos esses (organicos e inorganicos), ajudando pessoas e entidades que necessitam descartar esses materiais "resíduos". Esta solução vêem ajudar a previnir um grander problema que é o descarte  inadequado do lixo,  onde esta solução também vem ajudar e facílitar o processo de reciclagem e reutilização dos materias coletados.
 
 # By Next Level Week da Rocketseat
