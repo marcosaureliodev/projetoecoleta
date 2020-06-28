@@ -1,64 +1,55 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
+{% extends "layout.html" %}
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% set pageId = "page-search-results" %}
+
+{% block title %}
   <title>Resultado da pesquisa</title>
+{% endblock title %}
 
-  <!-- Link fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
-
+{% block styles %}
   <!-- Link css -->
-  <link rel="stylesheet" href="/style/main.css">
-  <link rel="stylesheet" href="/style/search-results.css">
+  <link rel="stylesheet" href="/styles/search-results.css">
+{% endblock styles %}
 
+{% block content %}
+  {% include "partials/page-header.html" %}
 
-  <!-- Resposive css -->
-  <link rel="stylesheet" href="/style/reponsive.css">
+  <main>
 
-</head>
+    <h4>
+      <strong>2 pontos</strong>
+      encontrados
+    </h4>
 
-<body>
+    <div class="cards">
+      <!-- Inicio cards -->
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1528323273322-d81458248d40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1401&q=80" alt="Colectoria">
+        <h1>Colectoria</h1>
+        <h3>Resíduos Eletrônicos, Lâmpadas</h3>
+        <p>
+          Rio do Sul, Santa Catarina
+          <br>
+          Guilherme Gemballa, Jardmin América
+          <br>
+          Número 260
+        </p>
+      </div>
 
-  <div id="page-search-results">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1567393528677-d6adae7d4a0a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80" alt="Papersider">
+        <h1>Papersider</h1>
+        <h3>Papeis e Papelão</h3>
+        <p>
+          Rio do Sul, Santa Catarina
+          <br>
+          Guilherme Gemballa, Jardmin América
+          <br>
+          Número 260
+        </p>
+      </div>
+    </div>
+    <!-- / fim cards -->
 
-      {% include "partials/page-header.html" %}
-
-      <main>
-
-        <h4>
-          <strong>2 pontos</strong> encontrados
-        </h4>
-
-        <div class="cards"><!-- Inicio cards -->
-          <div class="card">
-            <img src="https://images.unsplash.com/photo-1528323273322-d81458248d40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1401&q=80" alt="Colectoria">
-            <h1>Colectoria</h1>
-            <h3>Resíduos Eletrônicos, Lâmpadas</h3>
-            <p>
-              Rio do Sul, Santa Catarina <br>
-              Guilherme Gemballa, Jardmin América <br>
-              Número 260
-            </p>
-          </div>
-
-          <div class="card">
-            <img src="https://images.unsplash.com/photo-1567393528677-d6adae7d4a0a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80" alt="Papersider">
-            <h1>Papersider</h1>
-            <h3>Papeis e Papelão</h3>
-            <p>
-              Rio do Sul, Santa Catarina <br>
-              Guilherme Gemballa, Jardmin América <br>
-              Número 260
-            </p>
-          </div>
-        </div><!-- / fim cards -->
-
-      </main>
-
-  </div>
-
-
-</body>
-</html>
+  </main>
+{% endblock content %}

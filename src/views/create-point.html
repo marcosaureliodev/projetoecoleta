@@ -1,126 +1,113 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
+{% extends "layout.html" %}
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% set pageId = "page-create-point" %}
+
+{% block title %}
   <title>Criar ponto de coleta</title>
+{% endblock title %}
 
-  <!-- Link fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
-
+{% block styles %}
   <!-- Link css -->
-  <link rel="stylesheet" href="/style/main.css">
-  <link rel="stylesheet" href="/style/create-point.css">
+  <link rel="stylesheet" href="/styles/create-point.css">
+{% endblock styles %}
 
-   <!-- Resposividade css -->
-  <link rel="stylesheet" href="/style/reponsive.css">
+{% block content %}
 
-</head>
+  {% include "partials/page-header.html" %}
 
-<body>
+  <form action="">
 
-  <div id="page-create-point">
+    <h1>Cadastro do ponto de coleta</h1>
 
-      {% include "partials/page-header.html" %}
+    <fieldset>
+      <legend>
+        <h2>Dados da entidade</h2>
+      </legend>
 
-      <form action="">
+      <div class="field">
+        <label for="name">Nome da entidade</label>
+        <input type="text" name="name" required="required">
+      </div>
 
-        <h1>Cadastro do ponto de coleta</h1>
+      <div class="field-group">
+        <div class="field">
+          <label for="address">Endereço</label>
+          <input type="text" name="address" required="required">
+        </div>
+        <div class="field">
+          <label for="address2">Número/Complemento</label>
+          <input type="text" name="address2" required="required">
+        </div>
+      </div>
 
-        <fieldset>
-          <legend>
-            <h2>Dados da entidade</h2>
-          </legend>
+      <div class="field-group">
+        <div class="field">
+          <label for="state">Estado</label>
+          <select name="uf" required="required">
+            <option value="">Selecione o Estado</option>
+          </select>
 
-          <div class="field">
-            <label for="name">Nome da entidade</label>
-            <input type="text" name="name" required>
-          </div>
-          
-          <div class="field-group">
-            <div class="field">
-              <label for="address">Endereço</label>
-              <input type="text" name="address" required>
-            </div>
-            <div class="field">
-              <label for="address2">Número/Complemento</label>
-              <input type="text" name="address2" required>
-            </div>
-          </div>
+          <input type="hidden" name="state">
 
+        </div>
 
-          <div class="field-group">
-            <div class="field">
-              <label for="state">Estado</label>
-              <select name="uf" required>
-                <option value="">Selecione o Estado</option>
-              </select>
+        <div class="field">
+          <label for="city">Cidade</label>
+          <select name="city" disabled="disabled" required="required">
+            <option value="">Selecione a Cidade</option>
+          </select>
+        </div>
 
-              <input type="hidden" name="state">
+      </div>
 
-            </div>
+    </fieldset>
 
-            <div class="field">
-              <label for="city">Cidade</label>
-              <select name="city" disabled required>
-                <option value="">Selecione a Cidade</option>
-              </select>
-            </div>
-            
-          </div>
-          
+    <fieldset>
+      <legend>
+        <h2>Itens de coleta</h2>
+      </legend>
 
-        </fieldset>
+      <div class="items-grid">
+        <li data-id="1">
+          <img src="/assets/lampadas.svg" alt="Lâmpadas">
+          <spam>Lâmpadas</spam>
+        </li>
 
-        <fieldset>
-          <legend>
-            <h2>Itens de coleta</h2>
-          </legend>
+        <li data-id="2">
+          <img src="/assets/baterias.svg" alt="Pilhas e Baterias">
+          <spam>Pilhas e Baterias</spam>
+        </li>
 
-          <div class="items-grid">
-            <li data-id="1">
-              <img src="/assets/lampadas.svg" alt="Lâmpadas">
-              <spam>Lâmpadas</spam>
-            </li>
+        <li data-id="3">
+          <img src="/assets/papeis-papelao.svg" alt="Papéis-Papelão">
+          <spam>Papéis-Papelão</spam>
+        </li>
 
-            <li data-id="2">
-              <img src="/assets/baterias.svg" alt="Pilhas e Baterias">
-              <spam>Pilhas e Baterias</spam>
-            </li>
-            
-            <li data-id="3">
-              <img src="/assets/papeis-papelao.svg" alt="Papéis-Papelão">
-              <spam>Papéis-Papelão</spam>
-            </li>
-            
-            <li data-id="4">
-              <img src="/assets/eletronicos.svg" alt="Resíduos Eletônicos">
-              <spam>Resíduos Eletônicos</spam>
-            </li>
-            
-            <li data-id="5">
-              <img src="/assets/organicos.svg" alt="Resíduos Organicos">
-              <spam>Resíduos Organicos</spam>
-            </li>
-            
-            <li data-id="6">
-              <img src="/assets/oleo.svg" alt="Óleo de Cozinha">
-              <spam>Óleo de Cozinha</spam>
-            </li>
-          </div>
+        <li data-id="4">
+          <img src="/assets/eletronicos.svg" alt="Resíduos Eletônicos">
+          <spam>Resíduos Eletônicos</spam>
+        </li>
 
-          <input type="hidden" name="items">
+        <li data-id="5">
+          <img src="/assets/organicos.svg" alt="Resíduos Organicos">
+          <spam>Resíduos Organicos</spam>
+        </li>
 
-        </fieldset>
+        <li data-id="6">
+          <img src="/assets/oleo.svg" alt="Óleo de Cozinha">
+          <spam>Óleo de Cozinha</spam>
+        </li>
+      </div>
 
-        <button type="submit">Cadastrar ponto de coleta</button>
+      <input type="hidden" name="items">
 
-      </form>
+    </fieldset>
 
-  </div>
+    <button type="submit">Cadastrar ponto de coleta</button>
 
+  </form>
+{% endblock content %}
+
+{% block scripts %}
   <script src="/scripts/create-point.js"></script>
-
-</body>
-</html>
+{% endblock scripts %}
