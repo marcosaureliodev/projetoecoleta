@@ -51,7 +51,6 @@ document
 
   //FUNÇÃO PARA SELEÇÃO ITENS DE COLETA
   //pegar todos os li´s
-
   const itemsToCollect =  document.querySelectorAll(".items-grid li")
 
   for (const item of itemsToCollect){
@@ -70,7 +69,7 @@ document
     
     const itemId = itemLi.dataset.id
 
-    
+    // console.log('ITEM ID: ', itemId)
 
     //verificaf se exitem itens selecionados, se sim
     //pegar os itens selecionados
@@ -94,6 +93,8 @@ document
       //adicionar à seleção
       selectedItems.push(itemId)
     }
+
+    // console.log('selectedItems: ', selectedItems)
 
     //atualizar o campo escondido com os utens selecionados
     collectedItems.value = selectedItems
