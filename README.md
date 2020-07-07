@@ -7,10 +7,9 @@
 
 # By Next Level Week da Rocketseat
 
-Projeto **Open Source** desenvolvido na primeira semana **Next Level Week** da **Rocketseat**, com o uso das seguintes tecnologias: **_TypeScript, Node, React e React Native._**
+Projeto **Open Source** desenvolvido na primeira semana **Next Level Week** da **Rocketseat**, com o uso das seguintes tecnologias: **_TypeScript, Node, Nunjucks._**
 
-![LICENÇA](https://img.shields.io/badge/LICENÇA-MIT-GREEN) ![node](https://img.shields.io/badge/node-12.17.0-GREEN) ![web](https://img.shields.io/badge/npm-6.14.4-red) ![web](https://img.shields.io/badge/web-react-blue) ![mobile](https://img.shields.io/badge/mobile-react_native-purple)
-![server](https://img.shields.io/badge/server-nodejs-orange) 
+![LICENÇA](https://img.shields.io/badge/LICENÇA-MIT-GREEN) ![node](https://img.shields.io/badge/node-12.17.0-GREEN) ![web](https://img.shields.io/badge/npm-6.14.4-red) ![server](https://img.shields.io/badge/server-nodejs-orange) 
 
 # Desenvolvedor :computer:
 [<img src="https://avatars3.githubusercontent.com/u/63154006?s=460&u=42ba311a73dfa829f5ea8cd220fd054ee05314cb&v" width=115 > <br> <sub> Marcos Aurélio </sub>](https://github.com/marcosaureliodev) |
@@ -36,10 +35,6 @@ $ yarn
 
 Exemplos:
 ```sh
-# Instalando as dependências do commitlint:
-$ cd ./ecoleta
-$ npm install
-
 # Instalando as dependências do server:
 $ cd ./sources/server
 $ npm install
@@ -47,13 +42,9 @@ $ npm install
 # Instalando as dependências do website:
 $ cd ./sources/website
 $ npm install
-
-# Instalando as dependências do mobile:
-$ cd ./sources/mobile
-$ npm install
 ```
 
-Veja os arquivos **`package.json`** do <kbd>[commitlint](./package.json)</kbd>, <kbd>[server](./sources/server/package.json)</kbd>, <kbd>[website](./sources/website/package.json)</kbd> e <kbd>[mobile](./sources/mobile/package.json)</kbd>.
+Veja os arquivos **`package.json`** do <kbd>[server](./sources/server/package.json)</kbd> e <kbd>[website](./sources/website/package.json)</kbd>
 
 
 ### Utilizando o Website
