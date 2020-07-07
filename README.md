@@ -55,23 +55,6 @@ $ npm install
 
 Veja os arquivos **`package.json`** do <kbd>[commitlint](./package.json)</kbd>, <kbd>[server](./sources/server/package.json)</kbd>, <kbd>[website](./sources/website/package.json)</kbd> e <kbd>[mobile](./sources/mobile/package.json)</kbd>.
 
-### Utilizando o Server
-
-```sh
-# Abrindo o terminal no diretório do servidor:
-$ cd ./sources/server
-
-# Executando a aplicação em modo de desenvolvimento:
-$ npm run dev
-
-# Instanciando o banco de dados:
-$ npm run knex:migrate
-
-# Povoando o banco de dados (seeds):
-$ npm run knex:seed
-```
-
-> Veja a parte de **scripts {}** do arquivo <kbd>[package.json](./sources/server/package.json)</kbd> para saber quais scripts estão disponíveis.
 
 ### Utilizando o Website
 
