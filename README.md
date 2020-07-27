@@ -55,7 +55,7 @@ Veja os arquivos **`package.json`** do <kbd>[server](./sources/server/package.js
 $ cd ./sources/website
 
 # Executando o website no modo de desenvolvimento:
-$ npm run start
+$ npm start
 ```
 
 > Se o browser não abrir automaticamente, acesse: http://localhost:3000.
